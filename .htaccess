@@ -1,0 +1,13 @@
+#md-rewrite startshere
+RewriteEngine one 
+# Does not apply to existing directories , meaning that if the folder existers on theserver then don't change  anything and do not run the ule!
+
+RewriteCond%{REQUEST-FILENAME} !-d
+
+#Check for file in directory with.html extension
+
+RewriteCond ${QUESTE-FILENAME}\.html -f
+
+# Here we actually showthe page thathas the .html extension
+
+RewriteRule ^(.*)$  $1.html [NC,L]

@@ -1,0 +1,347 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    padding-top:100px ;
+}
+
+header{
+
+    background-color: #fff;
+    width: 100%;
+    height: 100px ; 
+    position: fixed;
+}
+header .pp{
+    font-family: catamaran;
+    font-size: 24px;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0; 
+
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+
+    
+}
+
+header nav ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+
+}
+
+header nav ul li a{
+    font-family: catamaran;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+
+}
+
+header .ppp{
+    display: none;
+}
+@media only screen and (min-width: 1000px){
+    header .pp{
+    margin: 31px  0 ;
+    text-align: left;
+    line-height: 38px ;
+    padding: 0px 50px 0px 40px; 
+    border-right: 3px solid #111;
+    float: left;
+    }
+    header nav ul {
+        margin: 20px 0px 0px 20px;
+        float: left;
+        
+    }
+        
+        
+    header nav ul li a{
+        font-weight:bolder ;
+        line-height: 60px ;
+    }
+    header .ppp{
+        display: block;
+        font-family: catamaran;
+        font-size: 23px;
+        color: #111;
+        text-transform: uppercase;
+        line-height: 30px;
+        border: 1px solid #111;
+        float: right;
+        margin: 31px 40px 0px 0px;
+        padding :0px 20px
+        }
+    
+
+}
+
+/*INDEX*/
+
+.index-banner{
+    width: 100%;
+    height: 600px;
+    background-image:url(image/bac.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    display: table;
+}
+.vertical-center{
+    display: table-cell;
+    vertical-align:middle ;
+}
+
+.index-banner h2{
+    font-family: times new roman ;
+    font-weight: 900px;
+    line-height:70px ;
+    font-size: 60px;
+    color:rgb(238, 48, 15);
+    text-align: center;
+    text-shadow: 2px 2px  #111; 
+}
+
+.index-banner h1{
+    font-family: times new roman;
+    font-weight: 100px;
+    line-height:40px ;
+    font-size: 28px;
+    font-style: italic;
+    color:rgb(238, 48, 15);
+    text-align: center;
+    text-shadow: 2px 2px  #111; 
+}
+
+.index-links div {
+    margin: 16px 16px 0;
+    width:calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.index-links div h3{
+    font-family: times new roman;
+    font-weight: 100px;
+    line-height:40px ;
+    font-size: 28px;
+    color:#111;
+    text-align: center;
+    text-transform: uppercase;
+     
+}
+@media only screen and (min-width: 1000px){
+    .wrapper{
+        width: 1000px;  
+        margin: 0px auto; 
+    } 
+    .index-banner{
+        height: 450px;
+    }  
+    .index-banner h1{
+        display: block;
+        width: 560px;
+        margin: 0 auto;
+       
+    }
+    .index-links{
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+    .index-links div {
+        margin: 10px 10px 0;
+        height: 230px;
+        background-color: #f2f2f2;
+        float: left;
+    }
+    .link-square{
+        width:calc(25% - 20px) !important;
+    }
+    .link-rectangle{
+        width: calc(50% - 20px) !important;
+    }   
+    .index-links div h3{
+        line-height: 200px;
+    }
+}
+/*CASES*/
+.cases-links{
+    overflow: hidden;
+    margin-left: 80px;
+    margin-bottom: 20px;
+
+
+}
+.cons{
+    font-family:times new roman ;
+    font-size:28px ;
+    font-weight:28px ;
+    color: #111;
+    text-transform:uppercase ;
+}
+.cases-links .cases-link{
+    float: left;
+    width: 310px;
+    height: 310px;
+    margin:20px 10px 0px;
+    background-color: #e3e3e3;
+    
+}
+.cases-links p{
+    font-family:times new roman ;
+    padding-top:45% ;
+    font-size:24px ;
+    font-weight:600px ;
+    color: #111;
+    text-align: center;
+    text-transform:uppercase ;
+} 
+/*CASE*/
+.case-vid h2{
+    font-size: times new roman ;
+    font-size:28px ;
+    font-weight:600px ;
+    color: #111;
+    text-align: center;
+    text-transform:uppercase ;
+
+
+}
+.case-vid video{
+    width: 60% ;
+    height: 700px;
+    display: block;
+    margin:0 auto  ;
+    padding: 30px 0;
+}
+.case-vid article h3 {
+    font-size: times new roman ;
+    font-size:28px ;
+    font-weight:600px ;
+    color: #111;
+    text-transform:uppercase ;
+    margin-left: 50px;
+    padding-bottom: 20px;
+
+}
+.case-vid article div p {
+    font-size: times new roman ;
+    font-size:16px ;
+    font-weight:600px ;
+    color: #111;
+    line-height: 24px;
+    text-transform:uppercase ;
+    column-count: 3;
+    column-gap: 30px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+/*GALLERY*/
+.gallery-links-h2{
+    font-family: times new roman;
+    font-size: 28px;
+    font-weight: 600px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+.gallery-links{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.gallery-img{
+    flex-basis: 23%;
+    margin: 10px;
+
+}
+.gallery-img{
+    width: 100%;
+}
+@media only screen and (min-width: 762px){
+    .gallery-links-h2{
+    font-size: 28px;
+    }
+
+}
+
+/*FOOTER*/
+
+footer {
+    width: calc(100%- 80%);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 30px;
+
+}
+footer ul li{
+    display: block;
+    list-style: none; 
+}
+
+footer ul li a{
+    font-family: catamaran;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-links{
+    display: none;
+}
+
+.footer{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.footer{
+   width: 50px;
+   float: right; 
+}
+.footer img{
+    width: 100%;
+    margin-bottom: 10px; 
+}
+@media only screen and (min-width: 1000px){
+    .footer-links{
+        display: block;
+    }
+    footer ul{
+        width: fit-content;
+        float: left;
+        padding-left: 30px;
+        padding-right: 30px ;
+    }
+    footer ul li p{
+        font-family: catamaran;
+        font-size: 24px;
+        color: #fff;
+        line-height: 40px;
+        text-transform: uppercase;
+   }
+   
+   
+}
